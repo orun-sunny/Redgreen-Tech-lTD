@@ -13,7 +13,7 @@ const BottomNav = () => {
 
             </div>
 
-            <div className="hero bg-base-200">
+            <div className="hero bg-base-200 ">
 
                 <div className="swiper mySwiper">
                     <div className="swiper-wrapper">

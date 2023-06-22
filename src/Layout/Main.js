@@ -5,6 +5,7 @@ import Footer from '../pages/Shared/Footer/Footer'
 import Home from '../pages/Home/Home/Home'
 import BottomNav from '../pages/Shared/BottomNav/BottomNav'
 import Banner from '../pages/Home/Banner/Banner'
+import Product from '../pages/Product/Product'
 
 function Main() {
   return (
@@ -12,8 +13,10 @@ function Main() {
 
         <Header></Header>
         <BottomNav></BottomNav>
-        <Home></Home>
+        {/* <Home></Home> */}
+        <Product></Product>
         <Banner></Banner>
+   
         <Outlet></Outlet>
         <Footer></Footer>
     </div>
