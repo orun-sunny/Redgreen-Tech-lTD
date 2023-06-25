@@ -5,13 +5,13 @@ import Hero from "../../../assests/GemibookXPro-a1_01.jpg"
 const BottomNav = () => {
     return (
         <>
-            <div className="">
+            {/* <div className="">
 
                 <div className="text-center">
                     <p href='/' className="btn btn-ghost text-center"> Plus get a gift card up to $150.1 Shop now</p>
                 </div>
 
-            </div>
+            </div> */}
 
             <div className="hero bg-base-200">
 
