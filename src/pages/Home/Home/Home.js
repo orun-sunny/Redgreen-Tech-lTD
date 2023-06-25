@@ -1,10 +1,9 @@
 
 import image1 from '../../../assests/store-card-13-homepod-nav-202301.png'
 import image2 from '../../../assests/store-card-13-ipad-nav-202210.png'
-import image3 from '../../../assests/store-card-13-ipad-nav-202210.png'
-import image4 from '../../../assests/store-card-13-ipad-nav-202210.png'
 
-import React, { useRef, useState } from "react";
+
+import React, { useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

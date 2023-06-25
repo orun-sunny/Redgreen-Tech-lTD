@@ -5,17 +5,11 @@ import Hero from "../../../assests/GemibookXPro-a1_01.jpg"
 const BottomNav = () => {
     return (
         <>
-            {/* <div className="">
 
-                <div className="text-center">
-                    <p href='/' className="btn btn-ghost text-center"> Plus get a gift card up to $150.1 Shop now</p>
-                </div>
 
-            </div> */}
+            <div className="hero">
 
-            <div className="hero bg-base-200">
-
-                <div className="swiper mySwiper">
+                {/* <div className="swiper mySwiper">
                     <div className="swiper-wrapper">
                         <div className="swiper-slide">
 
@@ -41,116 +35,29 @@ const BottomNav = () => {
 
 
                     </div>
-                    <div className="swiper-slide">
+   
+              
+            
 
-
-                        <div className="relative w-full">
-                            <div className="">
-                                <img alt='header' className=" transition duration-500 hover:scale-125 w-full object-cover "
-                                  src={Hero}  />
-                            </div>
-                            <div className=" absolute  bottom-24 left-36 text-white text-center ">
-                                <div className="px-8">
-
-
-                                    <div>
-                                        <p className=" font-archivo, font-bold md:text-xl ">Discover Better basic and modern ,
-                                            {/* </br> */}
-                                            made of steel for your back.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="swiper-slide">
-
-                        <div className="relative w-full">
-                            {/* <div className="">
-                                <img alt='header' className=" transition duration-500 hover:scale-125 w-full object-cover "
-                               src={Hero2} />
-                            </div> */}
-                            <div className=" absolute  bottom-24 left-36 text-white text-center ">
-                                <div className="px-8">
-
-
-                                    <div>
-                                        <p className=" font-archivo, font-bold md:text-xl ">Discover Better basic and modern ,
-                                            {/* </br> */}
-                                            made of steel for your back.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div >
-                    <div className="swiper-slide">
-                        <div className="relative w-full">
-                            <div className="">
-                                <img alt='header' className=" transition duration-500 hover:scale-125 w-full object-cover "
-                                    src="./assets/orun/header4.webp" />
-                            </div>
-                            <div className=" absolute  bottom-24 left-36 text-white text-center ">
-                                <div className="px-8">
-
-
-                                    <div>
-                                        <p className=" font-archivo, font-bold md:text-xl ">Discover Better basic and modern ,
-                                            {/* </br> */}
-                                            made of steel for your back.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div >
-                    <div className="swiper-slide">
-                        <div className="relative w-full">
-                            <div className="">
-                                <img alt='header' className=" transition duration-500 hover:scale-125 w-full object-cover "
-                                    src="./assets/orun/header4.webp" />
-                            </div>
-                            <div className=" absolute  bottom-24 left-36 text-white text-center ">
-                                <div className="px-8">
-
-
-                                    <div>
-                                        <p className=" font-archivo, font-bold md:text-xl ">Discover Better basic and modern ,
-                                            {/* </br> */}
-                                            made of steel for your back.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div >
-                    <div className="swiper-slide">
-
-                        <div className="relative w-full">
-                            <div className="">
-                                <img alt='header' className=" transition duration-500 hover:scale-125 w-full object-cover "
-                                  src={Hero}  />
-                            </div>
-                            <div className=" absolute  bottom-24 left-36 text-white text-center ">
-                                <div className="px-8">
-
-
-                                    <div>
-                                        <p className=" font-archivo, font-bold md:text-xl ">Discover Better basic and modern ,
-                                            {/* </br> */}
-                                            made of steel for your back.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div >
-
-                </div >
+                </div > */}
                 {/* <div className=" swiper-button-prev"></div>
                 <div className=" swiper-button-next"></div> */}
 
-
+                <div className="hero min-h-screen" style={{
+                    backgroundImage: `url(${Hero})`,
+                    width: '100vw',
+                    backgroundPosition: 'center',
+                    height: '50px',
+                }}>
+                    <div className="hero-overlay bg-opacity-60"></div>
+                    <div className="hero-content text-center text-neutral-content">
+                        <div className="max-w-md">
+                            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+                            <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <button className="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
 
 
             </div >

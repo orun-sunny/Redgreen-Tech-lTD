@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerImg from "../../../assests/GemibookXPro-a1_01.jpg"
+
 import Flash from "../../../assests/Flash-Sale-Image.jpg"
 import laptop from "../../../assests/Laptop.jpg"
 import TV from "../../../assests/Oneplus-tv.jpg"
@@ -8,12 +8,12 @@ import Hero from "../../../assests/Herobook-1.jpg"
 const Banner = () => {
     return (
         <div>
-            <div className="hero  bg-base-200">
+            <div className="hero ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={Hero} alt='/' className="w-6/12 h-96 rounded-lg shadow-2xl" />
+                    <img src={Hero} alt='/' className="w-full h-96 rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-5xl font-bold">Box Office News!</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p className="py-12">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <button className="btn btn-primary">Get Started</button>
                     </div>
                 </div>
@@ -38,9 +38,9 @@ const Banner = () => {
 
 
                                 <div
-                                    class="group relative cursor-pointer items-center justify-center overflow-hidden  hover:shadow-xl hover:shadow-black/30 col-span-1 sm:col-span-1 grid-col-12 sm:col-span-1 ">
-                                    <div class="h-96 w-72">
-                                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                                    class="group relative cursor-pointer rounded-lg items-center justify-center overflow-hidden  hover:shadow-xl hover:shadow-black/30 col-span-1 sm:col-span-1 grid-col-12 sm:col-span-1 ">
+                                    <div class=" w-full">
+                                        <img class="h-full w-full rounded-lg object-cover transition-transform duration-500 group-hover:scale-125"
                                             src={laptop} alt="" />
                                     </div>
                                     <div
@@ -58,9 +58,9 @@ const Banner = () => {
 
 
                                 <div
-                                    class="group relative cursor-pointer items-center justify-center overflow-hidden  hover:shadow-xl  col-span-1 sm:col-span-1 grid-col-12 sm:col-span-1 ">
-                                    <div class="h-96 w-72">
-                                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                                    class="group relative cursor-pointer rounded-lg items-center justify-center overflow-hidden  hover:shadow-xl  col-span-1 sm:col-span-1 grid-col-12 sm:col-span-1 ">
+                                    <div class="h-full w-full">
+                                        <img class="h-full w-full object-cover rounded-lg transition-transform duration-500 group-hover:scale-125"
                                             src={TV} alt="" />
                                     </div>
                                     <div
@@ -78,9 +78,9 @@ const Banner = () => {
 
 
                                 <div
-                                    class=" group relative cursor-pointer items-center justify-center overflow-hidden  hover:shadow-3xl  col-span-2 sm:col-span-2 grid-col-12 sm:col-span-2  ">
-                                    <div>
-                                        <img class=" w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                                    class=" group relative cursor-pointer rounded-lg items-center justify-center overflow-hidden  hover:shadow-3xl  col-span-2 sm:col-span-2 grid-col-12 sm:col-span-2  ">
+                                    <div className='rounded-lg'>
+                                        <img class=" w-full object-cover  rounded-lg transition-transform duration-500 group-hover:scale-125"
                                             src={Flash} alt="" />
                                     </div>
                                     <div

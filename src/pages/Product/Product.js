@@ -3,7 +3,7 @@ import React from 'react';
 const Product = () => {
     return (
         <div>
-            <div className="flex items-center  bg-base-200 " >
+            <div className="flex items-center " >
                 <div class="container ml-auto mr-auto flex flex-wrap items-start">
                     <div class="w-full pl-5 lg:pl-2 mb-4 mt-4">
                         <h1 class="text-3xl lg:text-4xl text-gray-700 font-extrabold">
